@@ -1,3 +1,6 @@
+import { characters } from './data.js';
+console.log(characters);
+
 const audio = document.getElementById('audio');
 
 const spongebobSound = document.getElementById('spongebob-sound');

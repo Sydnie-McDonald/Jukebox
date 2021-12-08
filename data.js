@@ -20,15 +20,15 @@ export const characters = [{
     audio: 'assets/sounds/princess.mp3'
 }, {
     name: 'Christmas Red',
-    image: 'assets/avatars/christmasRed.png',
+    image: 'assets/avatars/ChristmasRed.png',
     audio: 'assets/sounds/christmas.mp3'
 }, {
     name: 'ChristmasGold',
-    image: 'assets/avatars/christmasGold.jpg',
+    image: 'assets/avatars/ChristmasGold.jpg',
     audio: 'assets/sounds/christmas2.mp3'
 }, {
     name: 'ChristmasWhite',
-    image: 'assets/avatars/christmasWhite.jpg',
+    image: 'assets/avatars/ChristmasWhite.jpg',
     audio: 'assets/sounds/christmas3.mp3'
 }, {
     name: 'Ornament',

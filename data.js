@@ -23,11 +23,11 @@ export const characters = [{
     image: 'assets/avatars/ChristmasRed.png',
     audio: 'assets/sounds/christmas.mp3'
 }, {
-    name: 'ChristmasGold',
+    name: 'Christmas Gold',
     image: 'assets/avatars/ChristmasGold.jpg',
     audio: 'assets/sounds/christmas2.mp3'
 }, {
-    name: 'ChristmasWhite',
+    name: 'Christmas White',
     image: 'assets/avatars/ChristmasWhite.jpg',
     audio: 'assets/sounds/christmas3.mp3'
 }, {

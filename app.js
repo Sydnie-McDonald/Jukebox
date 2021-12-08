@@ -20,3 +20,15 @@ timmySound.addEventListener('click', () => {
     audio.src = 'assets/sounds/timmy.mp3';
     audio.play();
 });
+const ninjaSound = document.getElementById('ninja-sound');
+ninjaSound.addEventListener('click', () => {
+    audio.src = 'assets/sounds/ninja.mp3';
+    audio.play();
+});
+
+const princessSound = document.getElementById('princess-sound');
+princessSound.addEventListener('click', () => {
+    audio.src = 'assets/sounds/princess.mp3';
+    audio.play();
+});
+

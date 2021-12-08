@@ -32,3 +32,20 @@ princessSound.addEventListener('click', () => {
     audio.play();
 });
 
+const christmasRed = document.getElementById('christmas-sound');
+christmasRed.addEventListener('click', () => {
+    audio.src = 'assets/sounds/christmas.mp3';
+    audio.play();
+});
+const christmas2Sound = document.getElementById('christmas2-sound');
+christmas2Sound.addEventListener('click', () => {
+    audio.src = 'assets/sounds/christmas2.mp3';
+    audio.play();
+});
+const christmas3Sound = document.getElementById('christmas3-sound');
+christmas3Sound.addEventListener('click', () => {
+    audio.src = 'assets/sounds/christmas3.mp3';
+    audio.play();
+});
+
+

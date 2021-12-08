@@ -4,6 +4,7 @@
   }
   
   :root {
+    --secondary-background: #8b10c4;
     --magenta:#EC8FD0;
     --burgundy: #870A30;
     --champagne: #EBE0D0;
@@ -49,7 +50,7 @@
     display: grid;
     grid-template-rows: autos 1fr auto;
     place-items: center;
-    background: #FFFFF4;
+    background: var(--secondary-background);
     border: 3px solid var(--burgundy);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transition: all 250ms ease-in;

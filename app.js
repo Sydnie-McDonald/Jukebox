@@ -1,29 +1,36 @@
 import { characters } from './data.js';
 console.log(characters);
-/*Template initializing */
+/* Audio intializing */
+const audio = document.getElementById('audio');
+
+const characterList = document.getElementById('character-list');
 const template = document.getElementById('template');
 
 //loop the array 
 for (let character of characters) {
     console.log(characters);
     const copy = template.content.cloneNode(true);
+    // find h3 , image and button elements
     const header = copy.querySelector('h2');
     const image = copy.querySelector('img');
     const button = copy.querySelector('button');
     console.log(header, image, button);
+    //
     header.textContent = character.name;
     image.src = character.image;
-    console.log(copy);
+    // subscribe to button click
+    button.addEventListener('click', () => {
+        audio.src = character.audio;
+        audio.play();
+    });
 
-
-
+    characterList.appendChild(copy);
 }
+
 // for each character
 //make a copy of the template
 
-/* Audio intializing */
-const audio = document.getElementById('audio');
-/* character sound connecting */
+/* character sound connecting
 const spongebobSound = document.getElementById('spongebob-sound');
 spongebobSound.addEventListener('click', () => {
     audio.src = 'assets/sounds/spongebob.mp3';
@@ -47,12 +54,6 @@ ninjaSound.addEventListener('click', () => {
     audio.play();
 });
 
-const princessSound = document.getElementById('princess-sound');
-princessSound.addEventListener('click', () => {
-    audio.src = 'assets/sounds/princess.mp3';
-    audio.play();
-});
-
 const christmasRed = document.getElementById('christmas-sound');
 christmasRed.addEventListener('click', () => {
     audio.src = 'assets/sounds/christmas.mp3';
@@ -71,4 +72,28 @@ christmas3Sound.addEventListener('click', () => {
     audio.play();
 });
 
+const christmas4Sound = document.getElementById('christmas4-sound');
+christmas4Sound.addEventListener('click', () => {
+    audio.src = 'assets/sounds/christmas4.mp3';
+    audio.play();
+});
+
+const christmas5Sound = document.getElementById('christmas5-sound');
+christmas5Sound.addEventListener('click', () => {
+    audio.src = 'assets/sounds/christmas5.mp3';
+    audio.play();
+});
+
+const christmas6Sound = document.getElementById('christmas6-sound');
+christmas6Sound.addEventListener('click', () => {
+    audio.src = 'assets/sounds/christmas6.mp3';
+    audio.play();
+});
+
+const christmas7Sound = document.getElementById('christmas7-sound');
+christmas7Sound.addEventListener('click', () => {
+    audio.src = 'assets/sounds/christmas7.mp3';
+    audio.play();
+});
+*/
 

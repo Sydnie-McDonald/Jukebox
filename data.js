@@ -18,4 +18,32 @@ export const characters = [{
     name: 'Princess',
     image: 'assets/avatars/princess.png',
     audio: 'assets/sounds/princess.mp3'
+}, {
+    name: 'Christmas Red',
+    image: 'assets/avatars/christmasRed.png',
+    audio: 'assets/sounds/christmas.mp3'
+}, {
+    name: 'ChristmasGold',
+    image: 'assets/avatars/christmasGold.jpg',
+    audio: 'assets/sounds/christmas2.mp3'
+}, {
+    name: 'ChristmasWhite',
+    image: 'assets/avatars/christmasWhite.jpg',
+    audio: 'assets/sounds/christmas3.mp3'
+}, {
+    name: 'Ornament',
+    image: 'assets/avatars/ornaments.png',
+    audio: 'assets/sounds/christmas4.mp3'
+}, {
+    name: 'Christmas Treats',
+    image: 'assets/avatars/ChristmasTreats.jpg',
+    audio: 'assets/sounds/christmas5.mp3'
+}, {
+    name: 'Christmas Gifts',
+    image: 'assets/avatars/gifts.jpg',
+    audio: 'assets/sounds/christmas6.mp3'
+}, {
+    name: 'Reindeer',
+    image: 'assets/avatars/reindeer.png',
+    audio: 'assets/sounds/christmas7.mp3'
 }];

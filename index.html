@@ -8,12 +8,37 @@
     <!-- import css: -->
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/global.css">
-    <title>Your App</title>
+    <title>Jukebox</title>
 </head>
 
 <body>
-    Implement you app here, <a href="demo.html">See the demo</a>
+    <header>
+        <h1>Jukebox</h1>
+    </header>
+    <main>
+        <ul>
+            <li>
+                <h2>Ninja</h2>
+                <img src="assets/avatars/spongebob.png">
+                <button id="spongebob-sound">🎼</button>
+            </li>
+            <li>
+                <h2>Princess</h2>
+                <img src="assets/avatars/sprite.jpg">
+                <button id="among-sound">🎼</button>
+            </li>
+            <li>
+                <h2>Ranger</h2>
+                <img src="assets/avatars/timmy.jpg">
+                <button id="timmy-sound">🎼</button>
+            </li>
+        </ul>
+        <audio id="audio"></audio>
+    </main>
 
+    <footer>
+        &copy; 2021 Sydnie McDonald Alchemy Character Lab
+    </footer>
     <script src="app.js" type="module"></script>
 </body>
 
